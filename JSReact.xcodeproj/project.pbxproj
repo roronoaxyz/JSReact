@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F5318131CAE0E6400FD8371 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F5318121CAE0E6400FD8371 /* main.jsbundle */; };
+		5F5318701CB3874100FD8371 /* NewsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F53186F1CB3874100FD8371 /* NewsListController.m */; };
+		5F5318901CB3A86E00FD8371 /* NewsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F53188F1CB3A86E00FD8371 /* NewsDetailController.m */; };
+		5F53189D1CB4ACC700FD8371 /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F5318971CB4ACC700FD8371 /* index.ios.js */; };
+		5F53189E1CB4ACC700FD8371 /* Loading.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F5318981CB4ACC700FD8371 /* Loading.js */; };
+		5F53189F1CB4ACC700FD8371 /* NewsDetail.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F5318991CB4ACC700FD8371 /* NewsDetail.js */; };
+		5F5318A11CB4ACC700FD8371 /* NewsList.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F53189B1CB4ACC700FD8371 /* NewsList.js */; };
+		5F5318AA1CB4B2B200FD8371 /* NewsList.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F5318A91CB4B2B200FD8371 /* NewsList.jsbundle */; };
+		5F5318AC1CB4B32A00FD8371 /* NewsDetail.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F5318AB1CB4B32A00FD8371 /* NewsDetail.jsbundle */; };
+		5FF0F4C81CAD08D10071D001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0F4C71CAD08D10071D001 /* main.m */; };
+		5FF0F4CB1CAD08D10071D001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0F4CA1CAD08D10071D001 /* AppDelegate.m */; };
+		5FF0F4CE1CAD08D10071D001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0F4CD1CAD08D10071D001 /* ViewController.m */; };
+		5FF0F4D11CAD08D10071D001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0F4CF1CAD08D10071D001 /* Main.storyboard */; };
+		5FF0F4D31CAD08D10071D001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0F4D21CAD08D10071D001 /* Assets.xcassets */; };
+		5FF0F4D61CAD08D10071D001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0F4D41CAD08D10071D001 /* LaunchScreen.storyboard */; };
+		5FF0F4DF1CAD20BF0071D001 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0F4DE1CAD20BF0071D001 /* ReactView.m */; };
+		F69567D77BDCB64D33F63774 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C5399DC5A2203E8E59C065 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A25758FB7A20A10B344E3A4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5F5318121CAE0E6400FD8371 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = SOURCE_ROOT; };
+		5F53186E1CB3874100FD8371 /* NewsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListController.h; sourceTree = "<group>"; };
+		5F53186F1CB3874100FD8371 /* NewsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListController.m; sourceTree = "<group>"; };
+		5F53188E1CB3A86E00FD8371 /* NewsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailController.h; sourceTree = "<group>"; };
+		5F53188F1CB3A86E00FD8371 /* NewsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailController.m; sourceTree = "<group>"; };
+		5F5318971CB4ACC700FD8371 /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
+		5F5318981CB4ACC700FD8371 /* Loading.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Loading.js; sourceTree = "<group>"; };
+		5F5318991CB4ACC700FD8371 /* NewsDetail.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NewsDetail.js; sourceTree = "<group>"; };
+		5F53189B1CB4ACC700FD8371 /* NewsList.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NewsList.js; sourceTree = "<group>"; };
+		5F5318A91CB4B2B200FD8371 /* NewsList.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NewsList.jsbundle; sourceTree = "<group>"; };
+		5F5318AB1CB4B32A00FD8371 /* NewsDetail.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NewsDetail.jsbundle; sourceTree = "<group>"; };
+		5FF0F4C31CAD08D10071D001 /* JSReact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSReact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF0F4C71CAD08D10071D001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FF0F4C91CAD08D10071D001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FF0F4CA1CAD08D10071D001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FF0F4CC1CAD08D10071D001 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FF0F4CD1CAD08D10071D001 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FF0F4D01CAD08D10071D001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FF0F4D21CAD08D10071D001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FF0F4D51CAD08D10071D001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FF0F4D71CAD08D10071D001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF0F4DD1CAD20BF0071D001 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
+		5FF0F4DE1CAD20BF0071D001 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
+		C3C5399DC5A2203E8E59C065 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94914731C0962EEB04A8102 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF0F4C01CAD08D10071D001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69567D77BDCB64D33F63774 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F5318961CB4ACC700FD8371 /* ReactComponent */ = {
+			isa = PBXGroup;
+			children = (
+				5F5318971CB4ACC700FD8371 /* index.ios.js */,
+				5F5318A91CB4B2B200FD8371 /* NewsList.jsbundle */,
+				5F5318AB1CB4B32A00FD8371 /* NewsDetail.jsbundle */,
+				5F5318981CB4ACC700FD8371 /* Loading.js */,
+				5F5318991CB4ACC700FD8371 /* NewsDetail.js */,
+				5F53189B1CB4ACC700FD8371 /* NewsList.js */,
+			);
+			path = ReactComponent;
+			sourceTree = SOURCE_ROOT;
+		};
+		5FF0F4BA1CAD08D10071D001 = {
+			isa = PBXGroup;
+			children = (
+				5FF0F4C51CAD08D10071D001 /* JSReact */,
+				5FF0F4C41CAD08D10071D001 /* Products */,
+				8904A45017C802A82C5366E8 /* Pods */,
+				9F1B9FAB14DD4F982D845F9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF0F4C41CAD08D10071D001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF0F4C31CAD08D10071D001 /* JSReact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF0F4C51CAD08D10071D001 /* JSReact */ = {
+			isa = PBXGroup;
+			children = (
+				5F5318961CB4ACC700FD8371 /* ReactComponent */,
+				5F5318121CAE0E6400FD8371 /* main.jsbundle */,
+				5FF0F4C91CAD08D10071D001 /* AppDelegate.h */,
+				5FF0F4CA1CAD08D10071D001 /* AppDelegate.m */,
+				5FF0F4CC1CAD08D10071D001 /* ViewController.h */,
+				5FF0F4CD1CAD08D10071D001 /* ViewController.m */,
+				5FF0F4CF1CAD08D10071D001 /* Main.storyboard */,
+				5FF0F4D21CAD08D10071D001 /* Assets.xcassets */,
+				5FF0F4D41CAD08D10071D001 /* LaunchScreen.storyboard */,
+				5FF0F4D71CAD08D10071D001 /* Info.plist */,
+				5FF0F4C61CAD08D10071D001 /* Supporting Files */,
+				5FF0F4DD1CAD20BF0071D001 /* ReactView.h */,
+				5FF0F4DE1CAD20BF0071D001 /* ReactView.m */,
+				5F53186E1CB3874100FD8371 /* NewsListController.h */,
+				5F53186F1CB3874100FD8371 /* NewsListController.m */,
+				5F53188E1CB3A86E00FD8371 /* NewsDetailController.h */,
+				5F53188F1CB3A86E00FD8371 /* NewsDetailController.m */,
+			);
+			path = JSReact;
+			sourceTree = "<group>";
+		};
+		5FF0F4C61CAD08D10071D001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FF0F4C71CAD08D10071D001 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8904A45017C802A82C5366E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C94914731C0962EEB04A8102 /* Pods.debug.xcconfig */,
+				5A25758FB7A20A10B344E3A4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F1B9FAB14DD4F982D845F9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3C5399DC5A2203E8E59C065 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF0F4C21CAD08D10071D001 /* JSReact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF0F4DA1CAD08D10071D001 /* Build configuration list for PBXNativeTarget "JSReact" */;
+			buildPhases = (
+				E7B30659C3DF9F2B7AF1AD35 /* Check Pods Manifest.lock */,
+				5FF0F4BF1CAD08D10071D001 /* Sources */,
+				5FF0F4C01CAD08D10071D001 /* Frameworks */,
+				5FF0F4C11CAD08D10071D001 /* Resources */,
+				3A660BDD21691242E9218A80 /* Embed Pods Frameworks */,
+				D3FD6BD71B3BE4D1FB0BC388 /* Copy Pods Resources */,
+				5FF0F4E21CAD25280071D001 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSReact;
+			productName = JSReact;
+			productReference = 5FF0F4C31CAD08D10071D001 /* JSReact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF0F4BB1CAD08D10071D001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = roronoa;
+				TargetAttributes = {
+					5FF0F4C21CAD08D10071D001 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5FF0F4BE1CAD08D10071D001 /* Build configuration list for PBXProject "JSReact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF0F4BA1CAD08D10071D001;
+			productRefGroup = 5FF0F4C41CAD08D10071D001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF0F4C21CAD08D10071D001 /* JSReact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF0F4C11CAD08D10071D001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5318AC1CB4B32A00FD8371 /* NewsDetail.jsbundle in Resources */,
+				5FF0F4D61CAD08D10071D001 /* LaunchScreen.storyboard in Resources */,
+				5F5318131CAE0E6400FD8371 /* main.jsbundle in Resources */,
+				5FF0F4D31CAD08D10071D001 /* Assets.xcassets in Resources */,
+				5F5318AA1CB4B2B200FD8371 /* NewsList.jsbundle in Resources */,
+				5F5318A11CB4ACC700FD8371 /* NewsList.js in Resources */,
+				5FF0F4D11CAD08D10071D001 /* Main.storyboard in Resources */,
+				5F53189F1CB4ACC700FD8371 /* NewsDetail.js in Resources */,
+				5F53189D1CB4ACC700FD8371 /* index.ios.js in Resources */,
+				5F53189E1CB4ACC700FD8371 /* Loading.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A660BDD21691242E9218A80 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FF0F4E21CAD25280071D001 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		D3FD6BD71B3BE4D1FB0BC388 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B30659C3DF9F2B7AF1AD35 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF0F4BF1CAD08D10071D001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF0F4DF1CAD20BF0071D001 /* ReactView.m in Sources */,
+				5FF0F4CE1CAD08D10071D001 /* ViewController.m in Sources */,
+				5FF0F4CB1CAD08D10071D001 /* AppDelegate.m in Sources */,
+				5F5318901CB3A86E00FD8371 /* NewsDetailController.m in Sources */,
+				5F5318701CB3874100FD8371 /* NewsListController.m in Sources */,
+				5FF0F4C81CAD08D10071D001 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FF0F4CF1CAD08D10071D001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF0F4D01CAD08D10071D001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FF0F4D41CAD08D10071D001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF0F4D51CAD08D10071D001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF0F4D81CAD08D10071D001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5FF0F4D91CAD08D10071D001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF0F4DB1CAD08D10071D001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94914731C0962EEB04A8102 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSReact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roronoa.JSReact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5FF0F4DC1CAD08D10071D001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A25758FB7A20A10B344E3A4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSReact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roronoa.JSReact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF0F4BE1CAD08D10071D001 /* Build configuration list for PBXProject "JSReact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF0F4D81CAD08D10071D001 /* Debug */,
+				5FF0F4D91CAD08D10071D001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF0F4DA1CAD08D10071D001 /* Build configuration list for PBXNativeTarget "JSReact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF0F4DB1CAD08D10071D001 /* Debug */,
+				5FF0F4DC1CAD08D10071D001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF0F4BB1CAD08D10071D001 /* Project object */;
+}
