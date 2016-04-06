@@ -1,9 +1,7 @@
 platform:ios, '7.0'
 
-pod 'React', :path => './node_modules/react-native', :subspecs => [
-  'Core',
-  'RCTImage',
-  'RCTNetwork',
-  'RCTText',
-  'RCTWebSocket',
-]
+pod 'React'
+pod 'React/RCTText'
+pod 'React/RCTImage'
+pod 'React/RCTNetwork'
+pod 'React/RCTWebSocket'

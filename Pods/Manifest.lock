@@ -1,0 +1,25 @@
+PODS:
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - React/Core (0.11.0)
+  - React/RCTImage (0.11.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.11.0):
+    - React/Core
+  - React/RCTText (0.11.0):
+    - React/Core
+  - React/RCTWebSocket (0.11.0):
+    - React/Core
+
+DEPENDENCIES:
+  - React
+  - React/RCTImage
+  - React/RCTNetwork
+  - React/RCTText
+  - React/RCTWebSocket
+
+SPEC CHECKSUMS:
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+
+COCOAPODS: 0.39.0
